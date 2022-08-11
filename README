@@ -1,0 +1,8 @@
+El programa fue realizado en plataforma
+LINUX Ubuntu 20.04.4 LTS.
+Bajo el standard ANSI C.-C-11
+EDitado con Sublime Text.
+***********************
+src/main.c \
+	src/utilidades/Mi_Proyecto.c \
+	src/utilidades/Volcado.c \

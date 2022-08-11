@@ -1,0 +1,6 @@
+$ make
+gcc -Wall -Wextra -Werror -pedantic-errors -I./include   -c -o src/main.o src/main.c
+gcc -Wall -Wextra -Werror -pedantic-errors -I./include   -c -o src/utilidades/Mi_Proyecto.o src/utilidades/Mi_Proyecto.c
+gcc -Wall -Wextra -Werror -pedantic-errors -I./include   -c -o src/utilidades/Volcado.o src/utilidades/Volcado.c
+gcc src/main.o src/utilidades/Mi_Proyecto.o src/utilidades/Volcado.o -o Subo_a_Memoria
+
